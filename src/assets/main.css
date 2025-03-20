@@ -32,6 +32,10 @@ h1 {
   font-weight: 700;
 }
 
+#image-editor {
+  min-height: 500px;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
