@@ -13,7 +13,23 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@syncfusion/ej2-vue-base": "^28.2.3",
+    "@syncfusion/ej2-vue-buttons": "^28.2.7",
+    "@syncfusion/ej2-vue-documenteditor": "^28.2.12",
+    "@syncfusion/ej2-vue-dropdowns": "^28.2.12",
+    "@syncfusion/ej2-vue-grids": "^28.2.12",
+    "@syncfusion/ej2-vue-image-editor": "^28.2.3",
+    "@syncfusion/ej2-vue-inplace-editor": "^28.2.3",
+    "@syncfusion/ej2-vue-inputs": "^28.2.11",
+    "@syncfusion/ej2-vue-layouts": "^28.2.5",
+    "@syncfusion/ej2-vue-navigations": "^28.2.12",
+    "@syncfusion/ej2-vue-pdfviewer": "^28.2.12",
+    "@syncfusion/ej2-vue-richtexteditor": "^28.2.11",
+    "@syncfusion/ej2-vue-splitbuttons": "^28.2.3",
+    "@syncfusion/ej2-vue-spreadsheet": "^28.2.11",
+    "codemirror": "^6.0.1",
     "ipos-syncfusion-demo": "file:",
+    "marked": "^15.0.7",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"

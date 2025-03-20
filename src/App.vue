@@ -1,26 +1,25 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router' // Import Syncfusion Spreadsheet styles
+import '@syncfusion/ej2-base/styles/material.css'
+import '@syncfusion/ej2-buttons/styles/material.css'
+import '@syncfusion/ej2-calendars/styles/material.css'
+import '@syncfusion/ej2-dropdowns/styles/material.css'
+import '@syncfusion/ej2-inputs/styles/material.css'
+import '@syncfusion/ej2-navigations/styles/material.css'
+import '@syncfusion/ej2-popups/styles/material.css'
+import '@syncfusion/ej2-richtexteditor/styles/material.css'
+import '@syncfusion/ej2-pdfviewer/styles/material.css'
+import '@syncfusion/ej2-documenteditor/styles/material.css'
+import '@syncfusion/ej2-image-editor/styles/material.css'
+import '@syncfusion/ej2-inplace-editor/styles/material.css'
+import '@syncfusion/ej2-vue-spreadsheet/styles/material.css'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 header {
   line-height: 1.5;
   max-height: 100vh;
