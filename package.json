@@ -27,10 +27,12 @@
     "@syncfusion/ej2-vue-richtexteditor": "^28.2.11",
     "@syncfusion/ej2-vue-splitbuttons": "^28.2.3",
     "@syncfusion/ej2-vue-spreadsheet": "^28.2.11",
+    "@tailwindcss/vite": "^4.0.14",
     "codemirror": "^6.0.1",
     "ipos-syncfusion-demo": "file:",
     "marked": "^15.0.7",
     "pinia": "^3.0.1",
+    "tailwindcss": "^4.0.14",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

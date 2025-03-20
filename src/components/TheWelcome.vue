@@ -1,49 +1,50 @@
 <template>
   <div>
-    <div>
-      <label for="">SpreadSheet</label>
+    <h1>IPOS SYNCFUSION DEMO</h1>
+    <div class="mb-4">
+      <label class="main-label" for="">SpreadSheet</label>
       <div>
         <SpreadSheet />
       </div>
     </div>
 
-    <div>
-      <label for="">In-Place Editor</label>
+    <div class="mb-4">
+      <label class="main-label" for="">In-Place Editor</label>
       <div>
         <InPlaceEditor />
       </div>
     </div>
 
-    <div>
-      <label for="">Pdf Viewer</label>
+    <div class="mb-4">
+      <label class="main-label" for="">Pdf Viewer</label>
       <div>
         <PdfViewer />
       </div>
     </div>
 
-    <div>
-      <label for="">Rich Text Editor</label>
+    <div class="mb-4">
+      <label class="main-label" for="">Rich Text Editor</label>
       <div>
         <RichTextEditor />
       </div>
     </div>
 
-    <div>
-      <label for="">Markdown Editor</label>
+    <div class="mb-4">
+      <label class="main-label" for="">Markdown Editor</label>
       <div>
         <MarkdownEditor />
       </div>
     </div>
 
-    <div>
-      <label for="">Word Processor</label>
+    <div class="mb-4">
+      <label class="main-label" for="">Word Processor</label>
       <div>
         <WordProcessor />
       </div>
     </div>
 
-    <div>
-      <label for=""> Image Editor</label>
+    <div class="mb-4">
+      <label class="main-label" for=""> Image Editor</label>
       <div>
         <ImageEditor />
       </div>
